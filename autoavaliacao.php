@@ -4,12 +4,6 @@
 
 <style>
 
-    .menu-paciente ul .sub-menu-paciente{
-
-        border-bottom: 1px solid #000;
-
-    }
-
 
     .item1 { 
 
@@ -147,7 +141,7 @@
                     </div>
 
                     <div>
-                        <button>Salvar</button> <br />
+                    <a class="btn-sucesso" href="consultas-agendadas">Salvar</a> <br />
                         <span class="ptBR">Salvar</span>
                     </div>  
 

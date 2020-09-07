@@ -1,152 +1,314 @@
-@font-face{
-    font-family: 'FonteLibras' ;
-    src: url("../fonts/Libras2020-Regular.ttf");
-}
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'FonteLibras', sans-serif;
-}
-
-
-#background_absoluto {
-    top: 0px;
-    background-color: rgb(0, 0, 0);
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1
-  }
-  
-  #background_absoluto_img{
-    background: url('../assets/img-background-login.png') ;  
-  position: absolute;
-      top: 0px;
-      width: 100%;
-      opacity: 0.3;
-      object-position: 50% 50%;
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      height: 100%;
-  }
-
-
-
-
-.ptBR{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px !important;
-    color: #000 !important;
-    font-weight: 500 !important;
-}
-.font-libras{
-    font-size: 30px !important;
-    color: #fff;
-}
-
-.suport .font-libras{ font-size: 23px !important;}
-.suport .ptBR{font-size: 13px !important;}
-
-section#main-login{
-    float: right;
-    max-width: 350px;
-    width: 100%;
-    background: var(--primary);
-    padding: 17px 0;
-    min-height: 100vh;
-
-} 
-
-section#main-login .logo img{
-    height: 43px;
-}
-
-.blocks{
-    display: grid;
-    grid-template-columns: 100%;
-    /* column-gap: 10px; */    
-    row-gap: 31px;
-    /* justify-items: center; */
-}
-
-.block-box{
-    display: grid;
-    /* grid-template-columns: 100%;      */
-    justify-items: center;
-    
-}
-
-.block-box input{
-    width: 90%;
-    padding: 9px 0;
-    background: var(--primary);
-    border: 1px solid var(--white);
-    /* border-radius: 5px;
-    border: navajowhite;
-    box-shadow: 3px 4px 11px 0px #a0a0a0; */
-}
-
-.block-box .btn-login{
-    color: #000;
-    width: 90%;
-    padding: 9px 0;
-    cursor: pointer;
-    text-align: center;
-    background: var(--white);
-}
-.block-box .texto{
-    text-align: center;
-}
-
-/*tirar e colocar em formatação global*/
-
-#sideBar ul li a:hover, .suport a:hover{
-    color: var(--gray);
-}
-.suport p{
-    padding-bottom: 5px;
-    text-align: center;
-}
-.suport{
-    padding-top: 111px;
-}
-.suport a{
-    font-size: 15px;
-    text-decoration: none;
-    color: var(--white);
-    transition: 0.5s;
-    display: block;
-}
-
-
-:root {
-    --primary: rgba(0,153,93,1);
-    --primary-hover: #1e8b6f;
-    --secondary: #15181C;
-    --search: #202327;
-    --white: #f8f8f8;
-    --gray: #dad8d8;
-    --block: rgba(214,249,194,1);
-    --outline: #2F3336;
-    --dark-hover: #011017;
-    --light-hover: #2C8ED6;
-  }
-
-
-  @media(max-width: 757px){
-
-    section#main-login{
-        float: right;
-        max-width: 757px;
-        width: 100%;
-        background: var(--primary);
-        padding: 17px 0;
-        min-height: 100vh;  
-    
-    } 
-
+@font-face{
+
+    font-family: 'FonteLibras' ;
+
+    src: url("../fonts/Libras2020-Regular.ttf");
+
+}
+
+
+
+
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'FonteLibras', sans-serif;
+
+}
+
+
+
+
+
+#background_absoluto {
+
+    top: 0px;
+
+    background-color: rgb(0, 0, 0);
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    z-index: -1
+
+  }
+
+  
+
+  #background_absoluto_img{
+
+    background: url('../assets/img-background-login.png') ;  
+
+  position: absolute;
+
+      top: 0px;
+
+      width: 100%;
+
+      opacity: 0.3;
+
+      object-position: 50% 50%;
+
+      background-size: cover;
+
+      background-position: center center;
+
+      background-repeat: no-repeat;
+
+      height: 100%;
+
+  }
+
+
+
+
+
+
+
+
+
+.ptBR{
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 15px !important;
+
+    color: #000 !important;
+
+    font-weight: 500 !important;
+
+}
+
+.font-libras{
+
+    font-size: 30px !important;
+
+    color: #fff;
+
+}
+
+
+
+.suport .font-libras{ font-size: 23px !important;}
+
+.suport .ptBR{font-size: 13px !important;}
+
+
+
+section#main-login{
+
+    float: right;
+
+    max-width: 350px;
+
+    width: 100%;
+
+    background: var(--primary);
+
+    padding: 17px 0;
+
+    min-height: 100vh;
+
+
+
+} 
+
+
+
+section#main-login .logo img{
+
+    height: 43px;
+
+}
+
+
+
+.blocks{
+
+    display: grid;
+
+    grid-template-columns: 100%;
+
+    /* column-gap: 10px; */    
+
+    row-gap: 31px;
+
+    /* justify-items: center; */
+
+}
+
+
+
+.block-box{
+
+    display: grid;
+
+    /* grid-template-columns: 100%;      */
+
+    justify-items: center;
+
+    
+
+}
+
+
+
+.block-box input{
+
+    width: 90%;
+
+    padding: 9px 0;
+
+    background: var(--primary);
+
+    border: 1px solid var(--white);
+
+    /* border-radius: 5px;
+
+    border: navajowhite;
+
+    box-shadow: 3px 4px 11px 0px #a0a0a0; */
+
+}
+
+
+
+.block-box .btn-login{
+
+    color: #000;
+
+    width: 90%;
+
+    padding: 9px 0;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    background: var(--white);
+
+    text-decoration: none;
+    
+    transition: 1s;
+
+}
+.block-box .btn-login:hover{
+
+    box-shadow: 3px 3px 8px 0px #00000094;
+    background: rgb(236, 236, 236); 
+
+}
+
+
+.block-box .texto{
+
+    text-align: center;
+
+}
+
+
+
+/*tirar e colocar em formatação global*/
+
+
+
+#sideBar ul li a:hover, .suport a:hover{
+
+    color: var(--gray);
+
+}
+
+.suport p{
+
+    padding-bottom: 5px;
+
+    text-align: center;
+
+}
+
+.suport{
+
+    padding-top: 111px;
+
+}
+
+.suport a{
+
+    font-size: 15px;
+
+    text-decoration: none;
+
+    color: var(--white);
+
+    transition: 0.5s;
+
+    display: block;
+
+}
+
+
+
+
+
+:root {
+
+    --primary: rgba(0,153,93,1);
+
+    --primary-hover: #1e8b6f;
+
+    --secondary: #15181C;
+
+    --search: #202327;
+
+    --white: #f8f8f8;
+
+    --gray: #dad8d8;
+
+    --block: rgba(214,249,194,1);
+
+    --outline: #2F3336;
+
+    --dark-hover: #011017;
+
+    --light-hover: #2C8ED6;
+
+  }
+
+
+
+
+
+  @media(max-width: 757px){
+
+
+
+    section#main-login{
+
+        float: right;
+
+        max-width: 757px;
+
+        width: 100%;
+
+        background: var(--primary);
+
+        padding: 17px 0;
+
+        min-height: 100vh;  
+
+    
+
+    } 
+
+
+
   }

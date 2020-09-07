@@ -417,6 +417,17 @@ header .container img{
 
 }
 
+/*botão padrão de salvar - agendar - */
+.btn-sucesso{
+    color: var(--white) !important;        
+    padding: 10px;
+    background: var(--primary);
+    
+    border-radius: 24px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.btn-sucesso:hover{  background: var(--primary-hover);   }
 
 
 

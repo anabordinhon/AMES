@@ -138,6 +138,8 @@
             font-size: 30px;
             text-decoration: none;
         }
+        .autoavaliacao:hover {background: var(--primary-hover);}
+        .historico-de-consultas{padding-top: 51px;}
 
     </style>
 
@@ -174,40 +176,15 @@
                 </form>             
 
             </div>
-
-                    <!-- 
-
-                    <div class="dropdown" style="text-align: center">
-
-                        <button class="font-libras dropbtn">Chamada de video</button> <br />
-
-
-
-                            <div class="dropdown-content">
-
-                                <a class="font-libras" href="call-libras.php" target="_blank">Com interprete</a>
-
-                                <span  class="ptBR">Com interprete</span>  
-
-                                <a class="font-libras" href="call.php" target="_blank">Sem interprete</a>
-
-                                <span  class="ptBR">Sem interprete</span>                         
-
-                            </div>
-
-
-
-                            <span  class="ptBR">Chamada de vídeo</span>  
-
-                    </div>-->
+                  
 
 
 
             <div style="text-align: center">
 
-                <button class="font-libras">Editar perfil</button> <br />
+            <a class="btn-sucesso" href="editar-perfil.php"> Editar perfil</a> <br />
 
-            <span  class="ptBR">Editar perfil</span>  
+                <span  class="ptBR">Editar perfil</span>  
 
             </div>             
 
@@ -255,9 +232,9 @@
 
 
 
-                        <a class="autoavaliacao font-libras" href="autoavaliacao.php"> Autoavaliacao1 </a> 
+                        <a class="autoavaliacao font-libras" href="autoavaliacao.php"> Autoavaliacao </a> 
 
-                        <span class="ptBR">Autoavaliação1</span>
+                        <span class="ptBR">Autoavaliação</span>
 
                     </div>
 
@@ -313,6 +290,7 @@
             <!--end consultas -->
 
 
+           
             <!--start container consulta -->
             <div class="block consultas-agendadas">
 
@@ -322,27 +300,29 @@
 
                         <div class="time-hidde-desktop">
 
-                            <button class="font-libras">11:30</button> <br />
+                            <button class="font-libras">09:00</button> <br />
 
-                            <span class="ptBR">11:30</span>
+                            <span class="ptBR">09:00</span>
 
                         </div>
 
-                        <span class="font-libras">Clinico Geral</span> 
+                        <span class="font-libras">Oftamologista</span> 
 
-                        <span class="ptBR">Clínico Geral</span>
+                        <span class="ptBR">Oftamologista</span>
 
-                        <span>20/09/2020</span> 
+                        <span>15/09/2020</span> 
 
-                        <span class="ptBR">20/09/2020</span>
+                        <span class="ptBR">15/09/2020</span>
 
                         <span class="font-libras">Consulta Online</span> 
 
                         <span class="ptBR">Consulta Online</span>
 
-                        <a class="autoavaliacao font-libras" href="autoavaliacao.php"> Autoavaliacao1 </a>
 
-                        <span class="ptBR">Autoavaliação</span>    
+
+                        <a class="autoavaliacao font-libras" href="autoavaliacao.php"> Autoavaliacao </a> 
+
+                        <span class="ptBR">Autoavaliação</span>
 
                     </div>
 
@@ -352,9 +332,9 @@
 
                         <div class="time-hidde-mobile">
 
-                            <button class="font-libras">08:00</button> <br />
+                            <button class="font-libras">09:00</button> <br />
 
-                            <span class="ptBR">08:00</span>
+                            <span class="ptBR">09:00</span>
 
                         </div>
 
@@ -395,8 +375,13 @@
                 </div>            
 
             </div>
+            <!--end consultas -->
+
+
+
         </div> <!--fim blocks-->
-        <div class="block-head font-libras">
+
+        <div class="block-head font-libras historico-de-consultas">
             <div class="">
                 <form action="">
 

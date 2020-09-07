@@ -34,6 +34,17 @@
 
   }
 
+  .btn-sucesso{
+            color: var(--white);        
+            padding: 10px;
+            background: var(--primary);
+            
+            border-radius: 24px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+  .btn-sucesso:hover{  background: var(--primary-hover);   }
+
 
 
 </style>
@@ -130,7 +141,7 @@
 
                     <div class="block-box-items">
 
-                        <button>Agendar</button> <br />
+                    <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
 
                         <span class="ptBR">Agendar</span>
 
@@ -154,7 +165,7 @@
 
                     <div class="block-box-items">
 
-                        <button>Agendar</button> <br />
+                        <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
 
                         <span class="ptBR">Agendar</span>
 
@@ -178,7 +189,7 @@
 
                     <div class="block-box-items">
 
-                        <button>Agendar</button> <br />
+                        <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
 
                         <span class="ptBR">Agendar</span>
 
@@ -202,7 +213,7 @@
 
                     <div class="block-box-items">
 
-                        <button>Agendar</button> <br />
+                        <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
 
                         <span class="ptBR">Agendar</span>
 
@@ -226,31 +237,7 @@
 
                     <div class="block-box-items"> 
 
-                        <button>Agendar</button> <br />
-
-                        <span class="ptBR">Agendar</span>
-
-                    </div>      
-
-                </div>            
-
-            </div>
-
-            <div class="block">
-
-                <div class="block-box">
-
-                    <div class="block-box-items"> 
-
-                        <span>Acumputura</span> <br />
-
-                        <span class="ptBR">Acumputura</span>
-
-                    </div>
-
-                    <div class="block-box-items">
-
-                        <button>Agendar</button> <br />
+                        <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
 
                         <span class="ptBR">Agendar</span>
 
@@ -274,7 +261,31 @@
 
                     <div class="block-box-items">
 
-                        <button>Agendar</button> <br />
+                        <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
+
+                        <span class="ptBR">Agendar</span>
+
+                    </div>      
+
+                </div>            
+
+            </div>
+
+            <div class="block">
+
+                <div class="block-box">
+
+                    <div class="block-box-items"> 
+
+                        <span>Acumputura</span> <br />
+
+                        <span class="ptBR">Acumputura</span>
+
+                    </div>
+
+                    <div class="block-box-items">
+
+                        <a class="btn-sucesso" href="agendamento-sucesso.php">Agendar</a> <br />
 
                         <span class="ptBR">Agendar</span>
 

@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="item6"> 
-                        <button>Salvar</button> <br />
+                    <a class="btn-sucesso" href="home.php"> Salvar</a> <br />
                         <span class="ptBR">Salvar</span>  
                     </div>
 
