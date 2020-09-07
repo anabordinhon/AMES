@@ -123,7 +123,7 @@
                     
 
                     <div>
-                       <a class="btn-sucesso" href="consultas-agendadas"> Ver consultas</a> <br />
+                       <a class="btn-sucesso" href="consultas-agendadas.php"> Ver consultas</a> <br />
                         <span class="ptBR">Ver consultas</span>
                     </div>  
 

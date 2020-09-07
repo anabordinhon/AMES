@@ -141,7 +141,7 @@
                     </div>
 
                     <div>
-                    <a class="btn-sucesso" href="consultas-agendadas">Salvar</a> <br />
+                    <a class="btn-sucesso" href="consultas-agendadas.php">Salvar</a> <br />
                         <span class="ptBR">Salvar</span>
                     </div>  
 
