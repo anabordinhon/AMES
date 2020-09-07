@@ -64,9 +64,7 @@
 
     .perfil .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-    .perfil .dropdown .dropbtn {        
-
-    }
+    .perfil .dropdown {  padding-bottom: 0px;}
 
 
 
