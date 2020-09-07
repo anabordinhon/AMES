@@ -455,7 +455,8 @@ header .container img{
 
     .blocks{        
 
-        grid-template-columns: 100%;        
+        grid-template-columns: 100%;   
+        padding-right: 15px;     
 
     } 
 
