@@ -38,9 +38,7 @@ Utilizamos também :
 
 ### Executando a aplicação
 
-*A demo desta aplicação está disponível no [Link](inserirlinkaqui)*
-
-Temos um link com a versão demo desta aplicação disponilizado em [Link](inserirlinkaqui)
+*A demo desta aplicação está disponível no [Link](https://ames.liliapaula.com/login.php)*
 
 ## Autores
 
