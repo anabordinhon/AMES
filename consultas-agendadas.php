@@ -130,6 +130,15 @@
 
         .dropdown { padding-bottom: 17px; }
 
+        .autoavaliacao {
+            padding: 10px;
+            background: var(--primary);
+            color: var(--white);
+            border-radius: 24px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
     </style>
 
 
@@ -203,7 +212,21 @@
             </div>             
 
         </div>
-        <div class="blocks">
+
+
+
+       
+
+
+
+        <div class="blocks"> 
+
+            
+
+                      
+
+           
+            <!--start container consulta -->
             <div class="block consultas-agendadas">
 
                 <div class="block-box">
@@ -232,9 +255,9 @@
 
 
 
-                        <button class="font-libras">Autoavaliacao</button> 
+                        <a class="autoavaliacao font-libras" href="autoavaliacao.php"> Autoavaliacao1 </a> 
 
-                        <span class="ptBR">Autoavaliação</span>
+                        <span class="ptBR">Autoavaliação1</span>
 
                     </div>
 
@@ -287,6 +310,10 @@
                 </div>            
 
             </div>
+            <!--end consultas -->
+
+
+            <!--start container consulta -->
             <div class="block consultas-agendadas">
 
                 <div class="block-box">
@@ -313,11 +340,9 @@
 
                         <span class="ptBR">Consulta Online</span>
 
+                        <a class="autoavaliacao font-libras" href="autoavaliacao.php"> Autoavaliacao1 </a>
 
-
-                        <button class="font-libras">Autoavaliacao</button> 
-
-                        <span class="ptBR">Autoavaliação</span>
+                        <span class="ptBR">Autoavaliação</span>    
 
                     </div>
 
@@ -385,6 +410,11 @@
             </div>
         </div>
         <div class="blocks">
+            <!--end consultas -->
+
+
+
+            <!--start container consulta -->
             <div class="block consultas-agendadas">
 
                 <div class="block-box">
@@ -417,6 +447,7 @@
 
                         <span class="ptBR">Exames</span>
 
+
                     </div>
 
 
@@ -446,7 +477,10 @@
                 </div>            
 
             </div>
+            <!--end consultas -->
 
+
+            <!--start container consulta -->
             <div class="block consultas-agendadas">
 
                 <div class="block-box">
@@ -455,29 +489,30 @@
 
                         <div class="time-hidde-desktop">
 
-                            <button class="font-libras">08:00</button> <br />
+                            <button class="font-libras">15:00</button> <br />
 
-                            <span class="ptBR">08:00</span>
+                            <span class="ptBR">15:00</span>
 
                         </div>
 
-                        <span class="font-libras">Oftamologista</span> 
+                        <span class="font-libras">Dermatologista</span> 
 
-                        <span class="ptBR">Oftamologista</span>
+                        <span class="ptBR">Dermatologista</span>
 
-                        <span>15/09/2020</span> 
+                        <span>03/06/2020</span> 
 
-                        <span class="ptBR">15/09/2020</span>
+                        <span class="ptBR">03/06/2020</span>
 
-                        <span class="font-libras">Sede Tucuruvi Tucuruvi</span> 
+                        <span class="font-libras">Consulta Online</span> 
 
-                        <span class="ptBR">Tucuruvi Tucuruvi</span>
+                        <span class="ptBR">Consulta Online</span>
 
 
 
-                        <button class="font-libras">Autoavaliacao</button> 
+                        <button class="font-libras">Exames</button> 
 
-                        <span class="ptBR">Autoavaliação</span>
+                        <span class="ptBR">Exames</span>
+
 
                     </div>
 
@@ -487,9 +522,9 @@
 
                         <div class="time-hidde-mobile">
 
-                            <button class="font-libras">08:00</button> <br />
+                            <button class="font-libras">15:00</button> <br />
 
-                            <span class="ptBR">08:00</span>
+                            <span class="ptBR">15:00</span>
 
                         </div>
 
@@ -497,9 +532,9 @@
 
                         <div class="btn-historico">    
 
-                            <button class="font-libras">Historico</button> <br />
+                            <button class="font-libras">Receita Medica</button> <br />
 
-                            <span class="ptBR btn-historico">Historico</span> 
+                            <span class="ptBR btn-historico">Receita Medica</span> 
 
                         </div>
 
@@ -508,7 +543,44 @@
                 </div>            
 
             </div>
-        </div>
+            <!--end consultas -->
+
+            
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+            
+
+            
+
+            
+
+
+
+
+
+
+
+        </div> <!--fim blocks-->
+
+        
+
+       
+
     </section>
 
 
