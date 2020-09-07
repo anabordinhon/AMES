@@ -48,7 +48,7 @@ Temos um link com a versão demo desta aplicação disponilizado em [Link](inser
 - *Gisele* - Prototipação e Negócio
 - *Iara Claudia* - Negócio
 - *Lilia Paula* - Desenvolvimento
-- *Mayuri* - Desenvolvimento e Prototipação
+- *Maiyuri* - Desenvolvimento e Prototipação
 
 ## Agradecimentos
 
