@@ -4,28 +4,6 @@
 
 <style>
 
-        /* .form-agend form {
-
-        display: grid;    
-
-        grid-template-columns: 100%;
-
-        justify-content: stretch; 
-
-    } */
-
-
-
-
-
-    .form-agend div {
-
-        /* justify-self: center; */
-
-    }
-
-
-
     .item1 { 
 
         width: 41vw;
@@ -48,6 +26,9 @@
 
     .item5 { grid-area: item5; justify-self: end; } 
 
+    .item6 { grid-area: item6; justify-self: center; } 
+    
+
 
 
 
@@ -64,7 +45,9 @@
 
         'item3 item3'
 
-        'item4 item5';
+        'item4 item5'
+
+        'item6 item6';
 
         justify-content: center;
 
@@ -90,59 +73,10 @@
 
     }
 
-    .form-agend input.two-column{
-
-        /*width: 15vw;*/
-
-    }
 
 
+    .form-agend img{width: 110px; }
 
-    /*tirar depois que colocar a img*/
-
-    .form-agend i{
-
-        font-size: 149px;
-
-    }
-
-
-
-    :root {
-
-        --primary: rgba(0,153,93,1);
-
-        --primary-hover: #1e8b6f;
-
-        --secondary: #15181C;
-
-        --search: #202327;
-
-        --white: #f8f8f8;
-
-        --gray: #dad8d8;
-
-        --block: rgba(214,249,194,1);
-
-        --outline: #2F3336;
-
-        --dark-hover: #011017;
-
-        --light-hover: #2C8ED6;
-
-    }
-
-
-
-    @media(max-width: 901px){
-
-
-
-        
-
-
-
-    }
 
 </style>
 
@@ -176,7 +110,7 @@
 
                     <div class="item1">
 
-                        <img src="" alt=""><i class="far fa-user-circle"></i>
+                        <img src="assets/profile05.png" alt="">
 
                     </div>
 
@@ -228,6 +162,11 @@
 
                         <span class="ptBR">Convênio</span> 
 
+                    </div>
+
+                    <div class="item6"> 
+                        <button>Salvar</button> <br />
+                        <span class="ptBR">Salvar</span>  
                     </div>
 
                            

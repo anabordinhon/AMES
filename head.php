@@ -100,11 +100,11 @@
 
                              <div class="dropdown-content">
 
-                                <a class="font-libras" href="agendamento.php">Editar perfil</a>
+                                <a class="font-libras" href="editar-perfil.php">Editar perfil</a>
 
                                 <span  class="ptBR">Editar perfil</span>  
 
-                                <a class="font-libras" href="#">Sair</a>
+                                <a class="font-libras" href="login.php">Sair</a>
 
                                 <span  class="ptBR">Sair</span>                         
 
